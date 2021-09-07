@@ -1,0 +1,309 @@
+{
+  "contractName": "ERC165",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "interfaceID",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ninterface ERC165 {\r\n    /// @notice Query if a contract implements an interface\r\n    /// @param interfaceID The interface identifier, as specified in ERC-165\r\n    /// @dev Interface identification is specified in ERC-165. This function\r\n    ///  uses less than 30,000 gas.\r\n    /// @return `true` if the contract implements `interfaceID` and\r\n    ///  `interfaceID` is not 0xffffffff, `false` otherwise\r\n    function supportsInterface(bytes4 interfaceID) external view returns (bool);\r\n}",
+  "sourcePath": "/home/byeonggoon/work/DAPP/LASTDAY/contracts/ERC165.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/ERC165.sol",
+    "exportedSymbols": {
+      "ERC165": [
+        9
+      ]
+    },
+    "id": 10,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 9,
+        "linearizedBaseContracts": [
+          9
+        ],
+        "name": "ERC165",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": "`interfaceID` is not 0xffffffff, `false` otherwise",
+            "id": 8,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "supportsInterface",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3,
+                  "name": "interfaceID",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8,
+                  "src": "462:18:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 2,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "462:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "461:20:0"
+            },
+            "returnParameters": {
+              "id": 7,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8,
+                  "src": "505:4:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 5,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "505:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "504:6:0"
+            },
+            "scope": 9,
+            "src": "435:76:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 10,
+        "src": "27:487:0"
+      }
+    ],
+    "src": "0:514:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/ERC165.sol",
+      "exportedSymbols": {
+        "ERC165": [
+          9
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            9
+          ],
+          "name": "ERC165",
+          "scope": 10
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "documentation": "`interfaceID` is not 0xffffffff, `false` otherwise",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "supportsInterface",
+              "scope": 9,
+              "stateMutability": "view",
+              "superFunction": null,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "interfaceID",
+                      "scope": 8,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bytes4",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bytes4",
+                          "type": "bytes4"
+                        },
+                        "id": 2,
+                        "name": "ElementaryTypeName",
+                        "src": "462:6:0"
+                      }
+                    ],
+                    "id": 3,
+                    "name": "VariableDeclaration",
+                    "src": "462:18:0"
+                  }
+                ],
+                "id": 4,
+                "name": "ParameterList",
+                "src": "461:20:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 8,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "bool",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "bool",
+                          "type": "bool"
+                        },
+                        "id": 5,
+                        "name": "ElementaryTypeName",
+                        "src": "505:4:0"
+                      }
+                    ],
+                    "id": 6,
+                    "name": "VariableDeclaration",
+                    "src": "505:4:0"
+                  }
+                ],
+                "id": 7,
+                "name": "ParameterList",
+                "src": "504:6:0"
+              }
+            ],
+            "id": 8,
+            "name": "FunctionDefinition",
+            "src": "435:76:0"
+          }
+        ],
+        "id": 9,
+        "name": "ContractDefinition",
+        "src": "27:487:0"
+      }
+    ],
+    "id": 10,
+    "name": "SourceUnit",
+    "src": "0:514:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.2",
+  "updatedAt": "2021-09-06T08:25:39.574Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {
+      "supportsInterface(bytes4)": {
+        "notice": "`interfaceID` is not 0xffffffff, `false` otherwise"
+      }
+    }
+  }
+}
