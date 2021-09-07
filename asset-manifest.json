@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/U1L/static/css/main.773f6fdb.chunk.css",
+    "main.js": "/U1L/static/js/main.9c5e14e9.chunk.js",
+    "main.js.map": "/U1L/static/js/main.9c5e14e9.chunk.js.map",
+    "runtime-main.js": "/U1L/static/js/runtime-main.4f089260.js",
+    "runtime-main.js.map": "/U1L/static/js/runtime-main.4f089260.js.map",
+    "static/css/2.ba6db5ec.chunk.css": "/U1L/static/css/2.ba6db5ec.chunk.css",
+    "static/js/2.b8a45cee.chunk.js": "/U1L/static/js/2.b8a45cee.chunk.js",
+    "static/js/2.b8a45cee.chunk.js.map": "/U1L/static/js/2.b8a45cee.chunk.js.map",
+    "index.html": "/U1L/index.html",
+    "precache-manifest.331d11258a63da9f0df37935eec4d6c9.js": "/U1L/precache-manifest.331d11258a63da9f0df37935eec4d6c9.js",
+    "service-worker.js": "/U1L/service-worker.js",
+    "static/css/2.ba6db5ec.chunk.css.map": "/U1L/static/css/2.ba6db5ec.chunk.css.map",
+    "static/css/main.773f6fdb.chunk.css.map": "/U1L/static/css/main.773f6fdb.chunk.css.map",
+    "static/media/Create.css": "/U1L/static/media/create-welcome1.6c4033cb.jpg",
+    "static/media/ipfs-logo.png": "/U1L/static/media/ipfs-logo.9658fd70.png",
+    "static/media/slick-theme.css": "/U1L/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f089260.js",
+    "static/css/2.ba6db5ec.chunk.css",
+    "static/js/2.b8a45cee.chunk.js",
+    "static/css/main.773f6fdb.chunk.css",
+    "static/js/main.9c5e14e9.chunk.js"
+  ]
+}
